@@ -5,9 +5,9 @@ public class Address {
     private int houseNumber;
 
     private String town;
-    private int zip;
+    private String zip;
 
-    public Address(String street, int houseNumber, String town, int zip) {
+    public Address(String street, int houseNumber, String town, String zip) {
         this.street = street;
         this.houseNumber = houseNumber;
         this.town = town;
@@ -41,11 +41,11 @@ public class Address {
         this.town = town;
     }
 
-    public int getZip() {
+    public String getZip() {
         return zip;
     }
 
-    public void setZip(int zip) {
+    public void setZip(String zip) {
         this.zip = zip;
     }
 }
